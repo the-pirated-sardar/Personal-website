@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
+    transition: .4s;
 }
 body{
     background: #080808;
@@ -11,46 +12,134 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/IMG_3001.png);
+    /*background-image: url(images/IMG_3001.png);*/
+    background-image: url(images/IMG_46492.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
 }
-.container{
-    padding: 10px 10px;
+.container {
+    padding: 40px 10px;
 }
-nav{
+nav {
+    position: absolute;
+    top: 0%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    
+    align-items: center; /* Align items vertically */
+    flex-wrap: wrap; /* Prevent wrapping of list items */
 }
 .logo {
-    width: 200px; /* Adjust as needed */
-    height: auto; /* Maintain aspect ratio */
+    width: 200px;
+    height: auto;
     clip-path: circle(30% at 50% 50%);
-  }
-  nav ul li{
-      display: inline-block;
-      list-style: none;
-      margin: 10px 20px;
-  }
-  nav ul li a{
-      text-decoration: none;
-      color: aliceblue;
-      font-size: 18px;
-      transition: .4s;
-  }
-nav ul li a::after{
+    margin-top: auto; /* Adjust margin to align with nav items */
+    margin-bottom: auto; /* Adjust margin to align with nav items */
+}
+nav ul {
+    display: flex; /* Ensure the ul element also behaves as a flex container */
+    padding-left: 0; /* Remove padding to align with the logo */
+}
+nav ul li {
+    text-align: center;
+    box-sizing: border-box;
+    display: flex; /* Use flex for centering text inside li */
+    align-items: center; /* Align text vertically */
+    justify-content: center; /* Align text horizontally */
+    height: 40px;
+    width: auto; /* Set width to auto to divide space equally */
+    border-radius: 10px;
+    background-color: #ff0051b9;
+    list-style: none;
+    margin: 10px 5px; /* Adjust margin to fit all items */
+}
+nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: .4s;
+    padding: 10px;
+    display: block; /* Change to block to fill the li */
+}
+
+nav li a::after{
     content: '';
     width: 0;
     height: 2px;
-    background: #ff0000;
+    background: #ff004f;
     display: block;
     margin: auto;
-    transition: .6s;
+    transition: .4s;
+    position: absolute;
 }
-nav ul li a:hover::after{
+nav li a:hover::after{
+    width: 100%;
+}
+.header-text{
+    transition: 0.4s;
+    position: absolute;
+    text-align: left;
+    margin-left: 2%;
+    margin-top: 10%;
+    font-size: 30px;
+}
+.header-text h1{
+    color: black;
+    font-size: 60px;
+}
+.header-text p{
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.pro{
+    color: #ff004f;
+    text-decoration: underline;
+    text-decoration-color: grey;
+}
+.external-user{
+    color: aliceblue;
+    text-decoration: none;
+    color: rgb(126, 133, 216);
+    font-size: 18px;
+    position: absolute;
+    font-size: 30px;
+}
+.external-user::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #ff004f;
+    transition: .4s;
+    display: block;
+    margin: auto;
+    position: relative;
+}
+.external-user:hover::after{
+    width: 100%;
+}
+.name{
+    color: #ff004f;
+    text-decoration: underline;
+    text-decoration-color: grey;
+}
+.link-button{   
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(126, 133, 216);
+    font-size: 18px;
+    position: relative;
+    font-size: 30px;
+}
+.link-button::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #ff004f;
+    display: block;
+    margin: auto;
+    transition: .4s;
+    position: absolute;
+}
+.link-button:hover::after{
     width: 100%;
 }
