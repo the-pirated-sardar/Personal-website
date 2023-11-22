@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio: Prateek Singh Arora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo5.png" alt="logo" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Me</a></li> 
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Resume</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                    <li><a href="#">My Interests</a></li>
+                    <li><a href="#">My "Origin Story"</a></li>
+                </ul>
+            </nav>
+            <div class="content">
+                <div class="header-text">
+                    <h1>Hi, I'm <span class="name">Prateek Singh Arora</span></h1>
+                    <p>
+                        <span class="pro">Computing Science Undergraduate</span>
+                        &nbsp
+                        <a href="https://www.sfu.ca/" target="_blank" class="external-user"> @SFU </a>
+                    </p>
+                    <p>
+                        <a href="#" class="link-button">My Portfolio</a>
+                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <a href="#" class="link-button">My CV</a>
+                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <a href="#" class="link-button">My Interests</a>
+                    </p>
+                </div>
+                <img src="images/lpPicture.jpg" alt="logo" class="lpPicture">
+            </div>
+
+        </div>
+    </div>
+
+<!----------------------about---------------------->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/aboutPicture.jpg" class="about-picture">
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle">About Me</h1>
+                <p>
+                    <br>
+                    👋 I'm a Computing Science student based in Vancouver, passionate about software development and data analytics. 
+                    My academic journey is intertwined with a fascination for digital innovation and practical tech applications.
+                    <br><br>
+                    I avidly follow tech podcasts, gaining diverse insights into the latest trends. 
+                    Balancing my tech interests, I enjoy crafting healthy recipes and exploring the immersive world of video games.
+                    <br><br>
+                    Coffee isn't just a drink for me; it's an art. As a Starbucks Coffee Master, 
+                    I've honed my skills in this craft, enriching my understanding of flavors and customer service.
+                    <br><br>
+                    In the convergence of technology, health, gaming, and coffee, 
+                    I seek opportunities for growth and innovation. Let's connect and shape the future of tech!<br><br><br>
+                </p>
+
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Placeholer</li>
+                        <li><span>UI/UX</span><br>Placeholer</li>
+                        <li><span>UI/UX</span><br>Placeholer</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2022 - Current</span><br>Placeholer</li>
+                        <li><span>X-Y</span><br>Placeholer</li>
+                        <li><span>X-Y</span><br>Placeholer</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2020</span><br>Placeholer</li>
+                        <li><span>2021</span><br>Placeholer</li>
+                        <li><span>2022</span><br>Placeholer</li>
+                    </ul>
+                </div>
+                <p><br><br></p>
+                <div class="pro-about">
+                    <p>
+                        Get know more about me &nbsp;<a href="#" class="about-button">here</a>
+                    </p>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+</div>
+
+<footer class="row">
+    <div class="col-3">
+        <h3>Contact me</h3>
+        <p><a href="mailto:prateek2151@gmail.com">prateek2151@gmail.com</a></p>
+        <p><br></p>
+        <p><a href="mailto:psarora@sfu.ca">psarora@sfu.ca</a></p>
+    </div>
+    <div class="col-3">
+        <h3>Resume and Portfolio</h3>
+        <p><a href="">Download my Resume</a></p>
+        <p><br></p>
+        <p><a href="">See my Portfolio</a></p>
+    </div>
+    <div class="col-3">
+        <h3>Socials</h3>
+        <p><a href="https://github.com/the-pirated-sardar">GitHub</a></p>
+        <p><br></p>
+        <p><a href="#">LinkedIn</a></p>
+    </div> 
+</footer>
+
+
+<script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+function opentab(tabName){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabName).classList.add("active-tab");
+}
+
+</script>
+
+</body>
+</html>
