@@ -190,11 +190,11 @@ nav ul li a:hover::after{
 .subtitle{
     font-size: 60px;
     font-weight: 600;
-    
 }
 .tab-titles{
     display: flex;
     margin: 20px 0 40px;
+    
 }
 .tab-links{
     margin-right: 50px;
@@ -202,10 +202,9 @@ nav ul li a:hover::after{
     font-weight: 800;
     cursor: pointer;
     position: relative;
-    border-bottom: 1px solid #a0a0a0;
 }
 
-/* .tab-links::after{
+.tab-links::after{
     content: '';
     width: 0;
     height: 2px;
@@ -217,9 +216,13 @@ nav ul li a:hover::after{
     left: 0;
     bottom: -8px;
 } 
-.tab-links.active-link::after{
+.tab-links:hover::after{
     width: 50%;
-} */
+}
+.tab-links.active-link::after{
+    width: 100%;
+}
+
 .tab-contents ul li{
     list-style: none;
     margin: 10px 0;
@@ -263,8 +266,11 @@ nav ul li a:hover::after{
 }
 
 
+/*----------------------footer----------------------*/
+
+
 footer {
-    background: #080808;
+    background: rgb(32, 32, 32);
     padding: 5.5rem 15rem 5.5rem 7rem;
 }
 
@@ -285,7 +291,10 @@ footer a:hover {
 }
 
 
-/*----------------------contact----------------------*/
+
+
+
+/*----------------------interests----------------------*/
 
 .flex-grid {
     display: grid;
@@ -294,15 +303,62 @@ footer a:hover {
     max-width: 90%;
     margin: 50px auto;
 }
-/* .col {
-    flex: 1;
-} */
+
+#interests {
+    padding: 0px 0 20px 0;
+    color: #ababab;
+    /* z-index: 2; */
+}
 
 #interests .col {
     background: #262626;
     padding: 40px;
     font-size: 13px;
     font-weight: 300;
-    border-right: 10px;
+    border-radius: 10px;
+    transition: transform 0.5s , background 0.5s;
+}
+.subtitle-webpage{
+    color: #ff004f;
+    font-size: 60px;
+    font-weight: 520;
+    margin: 3% 5%;
+    
+}
+.col ion-icon{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.col h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.col a{
+    text-decoration: none ;
+    color: rgb(126, 133, 216);
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.col:hover{
+    background: #96002f !important;
+    transform: translate(-10px) translateY(-10px);
+}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+.space{
+    margin: 20%;
 }
