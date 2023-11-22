@@ -351,8 +351,41 @@ footer a:hover {
 
 
 
+#webpage {
+    padding: 0px 0 5px 0;
+    color: #ababab;
+}
+.subtitle-webpage2{
+    color: #ff004f;
+    font-size: 60px;
+    font-weight: 520;
+    margin: 2% 5% 0% 5%;
+}
 
-
+.webpage p{
+    padding: 0px 0 20px 0;
+    color: #ababab;
+    margin: 0 4%;
+    padding: 40px;
+    font-size: 20px;
+    font-weight: 300;
+}
+#webpage h2{
+    padding: 0px 0 20px 0;
+    color: #ababab;
+    margin: 0 10%;
+    padding: 40px;
+    font-size: 40px;
+    font-weight: 300;
+}
+#webpage h3{
+    padding: 0px 0 20px 0;
+    color: #ababab;
+    margin: 0 4%;
+    padding: 30px;
+    font-size: 40px;
+    font-weight: 300;
+}
 
 
 
