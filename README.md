@@ -1,5 +1,11 @@
 # Prateek Singh Arora's Portfolio
 
+## Disclamier
+
+This repository houese the code for an earlier version of my portfolio website. The code for the current version can be accessed [here](https://github.com/the-pirated-sardar/portfolio-2024) and the website is live at [prateek-arora.com]([https://the-pirated-sardar.github.io/personal-website/](https://prateek-arora.com/)).
+
+The following content is preserved as it was when the repository's code was deployed.
+
 ## Overview
 
 This repository contains the source code for my personal portfolio website. It's designed to showcase my skills, projects, and interests, particularly in the field of Computing Science. The website features information about my academic journey, professional aspirations, and creative outlets, including technology experimentation, gaming, and art.
