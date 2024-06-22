@@ -2,7 +2,7 @@
 
 ## Disclamier
 
-This repository houese the code for an earlier version of my portfolio website. The code for the current version can be accessed [here](https://github.com/the-pirated-sardar/portfolio-2024) and the website is live at [prateek-arora.com]([https://the-pirated-sardar.github.io/personal-website/](https://prateek-arora.com/)).
+This repository houese the code for an earlier version of my portfolio website. The code for the current version can be accessed [here](https://github.com/the-pirated-sardar/portfolio-2024) and the website is live at [prateek-arora.com](https://prateek-arora.com/).
 
 The following content is preserved as it was when the repository's code was deployed.
 
