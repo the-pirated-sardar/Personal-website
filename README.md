@@ -23,7 +23,7 @@ Note: Currently the website is not finished. A lot of intended links do not exis
 
 ## Website Link
 
-You can view the live website here: [Prateek's Portfolio](https://the-pirated-sardar.github.io/personal-website/)
+You can view the live website here: [Prateek's Portfolio](https://the-pirated-sardar.github.io/personal-website-v1/)
 
 ## Technology Stack
 
